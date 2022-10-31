@@ -163,11 +163,20 @@ gulp.task(
 gulp.task(
   "build",
   gulp.series(
+    "clean",
     "html:build",
     "js:build",
     "scss:build",
     "images:build",
     "fonts:build",
-    "plugins:build"
+    "plugins:build",
+    "others:build",
+    gulp.parallel("watch:build", function () {
+      bs.init({
+        server: {
+          baseDir: path.build.dir,
+        },
+      });
+    })
   )
 );

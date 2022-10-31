@@ -40,63 +40,41 @@
   </head>
   <body></body>
 </html>
- <!-- navigation -->
-<header class="navigation">
-  <nav id="navbar" class="navbar main-nav">
-    <div class="container">
-      <div class="navbar-brand ml-0">
-        <a class="navbar-item" href="index.html">
-          <!-- <img src="images/logo/logo.png" alt="logo"> -->
-          <h2 class="has-text-white" style="font-size: 2rem">Silvia & Ivan</h2>
-        </a>
-        <button
-          role="button"
-          class="navbar-burger burger"
-          data-hidden="true"
-          data-target="navigation"
-        >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </button>
-      </div>
+ <header>
+  <nav
+    class="navbar is-dark is-fixed-top"
+    role="navigation"
+    aria-label="main navigation"
+  >
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="images/logo.png" width="112" height="28" />
+      </a>
 
-      <div class="navbar-menu mr-0" id="navigation">
-        <ul class="navbar-end">
-          <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="index.html">Inicio</a>
-          </li>
+      <a
+        role="button"
+        class="navbar-burger burger"
+        aria-label="menu"
+        aria-expanded="false"
+        data-target="navigation"
+      >
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
 
-          <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="">Historia</a>
-          </li>
-
-          <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="">Itinerario</a>
-          </li>
-
-          <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="">Playa Lagarto</a>
-          </li>
-
-          <!-- <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="">Presentes</a>
-          </li> -->
-
-          <li class="navbar-item">
-            <a
-              class="navbar-link is-arrowless quote-btn bg-primary rounded-btn letter-spacing is-uppercase"
-              href="faq.html"
-            >
-              Preguntas <i class="ti-angle-right"></i>
-            </a>
-          </li>
-        </ul>
+    <div id="navigation" class="navbar-menu">
+      <div class="navbar-end">
+        <a href="index.html" class="navbar-item">Inicio</a>
+        <a href="about.html" class="navbar-item">Historia</a>
+        <a href="blog.html" class="navbar-item">Itinerario</a>
+        <a href="blog.html" class="navbar-item">Presentes</a>
+        <a href="portfolio.html" class="navbar-item">Preguntas?</a>
       </div>
     </div>
   </nav>
 </header>
-<!-- nav part end -->
 
 
 <!-- Slider Start -->
@@ -278,7 +256,7 @@
               <p class="heading">Sábado 4 de Febrero - 2:00pm</p>
               <h5>Ceremonia de Matrimonio</h5>
               <p>
-                La iglesia es humilde y pequeña, esperamos contar únicamente con Familiares durante la ceremonia. Agradecemos la comprensión.</p>
+                La iglesia es humilde y pequeña, esperamos contar únicamente con Familiares durante la ceremonia. Agrademos la comprensión.</p>
                 <p class="has-text-weight-bold">Iglesia de Rio Seco</p>
             </div>
           </div>
@@ -399,11 +377,11 @@
 						<li><a href="https://github.com/themefisher/"><i class="ti-github mr-2 text-muted"></i>Github</a></li>
 						<li><a href="https://dribbble.com/themefisher/"><i class="ti-dribbble mr-2 text-muted"></i>Dribble</a></li>
 					</ul>
-
+					
 				</div>
 			</div>
 		</div>
-
+		
 		<div class="footer-btm pt-4 pb-3">
 			<div class="columns is-justify-content-center">
 				<div class="column has-text-centered">
@@ -414,8 +392,8 @@
 			</div>
 		</div>
 	</div>
-</footer>
-   <!--
+</footer> 
+   <!-- 
    Essential Scripts
    =====================================-->
 
@@ -436,7 +414,7 @@
 
    <!-- Google Map -->
    <script src="plugins/google-map/map.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
 
    <script src="js/script.js"></script>
 

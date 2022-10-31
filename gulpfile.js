@@ -170,13 +170,6 @@ gulp.task(
     "images:build",
     "fonts:build",
     "plugins:build",
-    "others:build",
-    gulp.parallel("watch:build", function () {
-      bs.init({
-        server: {
-          baseDir: path.build.dir,
-        },
-      });
-    })
+    "others:build"
   )
 );

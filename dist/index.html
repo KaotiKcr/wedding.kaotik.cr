@@ -7,7 +7,10 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="wedding" />
+    <meta
+      name="description"
+      content="My personal wedding website. Silvia & Ivan."
+    />
 
     <meta name="author" content="kaotik.cr" />
 
@@ -40,41 +43,63 @@
   </head>
   <body></body>
 </html>
- <header>
-  <nav
-    class="navbar is-dark is-fixed-top"
-    role="navigation"
-    aria-label="main navigation"
-  >
-    <div class="navbar-brand">
-      <a class="navbar-item" href="index.html">
-        <img src="images/logo.png" width="112" height="28" />
-      </a>
+ <!-- navigation -->
+<header class="navigation">
+  <nav id="navbar" class="navbar main-nav">
+    <div class="container">
+      <div class="navbar-brand ml-0">
+        <a class="navbar-item" href="index.html">
+          <!-- <img src="images/logo/logo.png" alt="logo"> -->
+          <h2 class="has-text-white" style="font-size: 2rem">Silvia & Ivan</h2>
+        </a>
+        <button
+          role="button"
+          class="navbar-burger burger"
+          data-hidden="true"
+          data-target="navigation"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </button>
+      </div>
 
-      <a
-        role="button"
-        class="navbar-burger burger"
-        aria-label="menu"
-        aria-expanded="false"
-        data-target="navigation"
-      >
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
+      <div class="navbar-menu mr-0" id="navigation">
+        <ul class="navbar-end">
+          <li class="navbar-item">
+            <a class="navbar-link is-arrowless" href="index.html">Inicio</a>
+          </li>
 
-    <div id="navigation" class="navbar-menu">
-      <div class="navbar-end">
-        <a href="index.html" class="navbar-item">Inicio</a>
-        <a href="about.html" class="navbar-item">Historia</a>
-        <a href="blog.html" class="navbar-item">Itinerario</a>
-        <a href="blog.html" class="navbar-item">Presentes</a>
-        <a href="portfolio.html" class="navbar-item">Preguntas?</a>
+          <li class="navbar-item">
+            <a class="navbar-link is-arrowless" href="">Historia</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="navbar-link is-arrowless" href="">Itinerario</a>
+          </li>
+
+          <li class="navbar-item">
+            <a class="navbar-link is-arrowless" href="">Playa Lagarto</a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a class="navbar-link is-arrowless" href="">Presentes</a>
+          </li> -->
+
+          <li class="navbar-item">
+            <a
+              class="navbar-link is-arrowless quote-btn bg-primary rounded-btn letter-spacing is-uppercase"
+              href="faq.html"
+            >
+              Preguntas <i class="ti-angle-right"></i>
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   </nav>
 </header>
+<!-- nav part end -->
 
 
 <!-- Slider Start -->
@@ -112,7 +137,7 @@
           data-aos-delay="200"
           style="line-height: 0"
         >
-          <img src="images/about/home-8.jpg" alt="" class="" />
+          <img src="images/historia.jpg" alt="" class="" />
         </div>
       </div>
 
@@ -393,13 +418,13 @@
 		</div>
 	</div>
 </footer> 
-   <!-- 
+   <!--
    Essential Scripts
    =====================================-->
 
    <!-- Main jQuery -->
    <script src="plugins/jquery/jquery.js"></script>
-   <script src="js/contact.js"></script>
+
    <!--  Magnific Popup-->
    <script src="plugins/magnific-popup/dist/jquery.magnific-popup.min.js"></script>
    <!-- Slick Slider -->
@@ -414,8 +439,9 @@
 
    <!-- Google Map -->
    <script src="plugins/google-map/map.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>    
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
 
    <script src="js/script.js"></script>
 
 </body></html>
+

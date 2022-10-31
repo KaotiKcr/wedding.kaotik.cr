@@ -1,5 +1,3 @@
-@import 'extensions/bulma-timeline.sass';
-
 @import 'variables.scss';
 @import 'mixins.scss';
 @import 'media-query.scss';
@@ -8,7 +6,7 @@
 
 @import 'templates/navigation.scss';
 @import 'templates/backgrounds.scss';
-@import 'templates/slider.scss';
+@import 'templates/cover.scss';
 @import 'templates/intro.scss';
 @import 'templates/about.scss';
 @import 'templates/counter.scss';
@@ -24,3 +22,5 @@
 @import 'templates/blog-sidebar.scss';
 
 @import 'templates/footer.scss';
+
+// @import 'extensions/bulma-timeline.sass';

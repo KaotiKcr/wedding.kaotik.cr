@@ -116,6 +116,17 @@ gulp.task("plugins:build", function () {
     );
 });
 
+// Font-Awesome
+gulp.task('font-awesome:build', function() {
+  return gulp.src('node_modules/@fortawesome/fontawesome-free/webfonts/*')
+      .pipe(gulp.dest(path.build.dir +'plugins/webfonts/'))
+      .pipe(
+        bs.reload({
+          stream: true,
+        })
+      );
+});
+
 // Other files like favicon, php, sourcele-icon on root directory
 gulp.task("others:build", function () {
   return gulp.src(path.src.others).pipe(gulp.dest(path.build.dir));
@@ -135,6 +146,7 @@ gulp.task("watch:build", function () {
   gulp.watch(path.src.images, gulp.series("images:build"));
   gulp.watch(path.src.fonts, gulp.series("fonts:build"));
   gulp.watch(path.src.plugins, gulp.series("plugins:build"));
+  gulp.watch(path.src.plugins, gulp.series("font-awesome:build"));
 });
 
 // Dev Task
@@ -149,6 +161,7 @@ gulp.task(
     "fonts:build",
     "plugins:build",
     "others:build",
+    "font-awesome:build",
     gulp.parallel("watch:build", function () {
       bs.init({
         server: {
@@ -170,6 +183,7 @@ gulp.task(
     "images:build",
     "fonts:build",
     "plugins:build",
-    "others:build"
+    "others:build",
+    "font-awesome:build"
   )
 );

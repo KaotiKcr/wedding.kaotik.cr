@@ -9,7 +9,7 @@
     />
     <meta
       name="description"
-      content="My personal wedding website. Silvia & Ivan."
+      content="Playa Lagarto, 4-FEB-23. Silvia & Ivan."
     />
 
     <meta name="author" content="kaotik.cr" />
@@ -17,7 +17,8 @@
     <!-- theme meta -->
 
     <title>Silvia & Ivan | Boda</title>
-    
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
     <!-- Icon Font Css -->
     <link rel="stylesheet" href="plugins/themify/css/themify-icons.css" />    
     <!-- AOS css -->
@@ -37,6 +38,17 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7V6WEHH041"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7V6WEHH041');
+    </script>
+
   </head>
   <body></body>
 </html>
@@ -64,33 +76,33 @@
       <div class="navbar-menu mr-0" id="navigation">
         <ul class="navbar-end">
           <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="#cover">Inicio</a>
+            <a class="navbar-link is-arrowless" href="index.html">Boda</a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a class="navbar-link is-arrowless" href="index.html#historia">Historia</a>
           </li>
 
           <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="#historia">Historia</a>
+            <a class="navbar-link is-arrowless" href="index.html#itinerario">Itinerario</a>
           </li>
 
           <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="#itinerario">Itinerario</a>
-          </li>
-
-          <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="#playa-lagarto">Playa Lagarto</a>
-          </li>
+            <a class="navbar-link is-arrowless" href="index.html#playa-lagarto">Playa Lagarto</a>
+          </li> -->
 
           <!-- <li class="navbar-item">
             <a class="navbar-link is-arrowless" href="">Presentes</a>
           </li> -->
 
-          <!-- <li class="navbar-item">
+          <li class="navbar-item">
             <a
               class="navbar-link is-arrowless quote-btn bg-primary rounded-btn letter-spacing is-uppercase"
               href="faq.html"
             >
               Preguntas <i class="ti-angle-right"></i>
             </a>
-          </li> -->
+          </li>
         </ul>
       </div>
     </div>
@@ -99,275 +111,145 @@
 <!-- nav part end -->
 
 
-<!-- Slider Start -->
-<section class="hero is-link is-fullheight slider" id="cover">
-  <div class="hero-body">
-    <div class="container has-text-centered">
-        <span class="is-block mb-4 is-uppercase">
-          Sabado 4 de Febrero 2023
-        </h2>
-        <h1 class="animated fadeInUp mb-6 has-text-white">
-          Playa Lagarto, Guanacaste
-        </h1>
-        <span class="is-block mb-4 is-uppercase" id="timer">
-          97 dias 4 horas
-        </h2>        
+<section class="page-title bg-1">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-12">
+                <div class="has-text-centered">                
+                    <!-- Section contador Start -->
+                    <span class="is-block " id="timer"></span>        
+                    <!-- Section contador End -->
+                    <h1 class="text-capitalize mb-4 text-lg">Preguntas</h1>
+                    <p>Frecuentes</p>
+                </div>
+            </div>
+        </div>
     </div>
+</section>
+
+    <!-- Section FAQ Start -->
+<section class="section position-relative">
+    <div class="container">       
+       <div class="columns is-multiline is-justify-content-center">
+          <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >
+             <div class="about-info-item mt-4">
+                <h3 class="mb-3">¿Cuando es la fecha máxima para confirmar?</h3>
+                <p>Entre más antes nos avisen es mejor para nosotros, aún así esperamos nos confirmen antes de navidad.</p>
+             </div>
+          </div>
+          <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >
+            <div class="about-info-item mt-4">
+                <h3 class="mb-3">¿Puedo llevar a mi pareja?</h3>
+                <p>Si, dejarnos saber al momento de confirmar.</p>
+                <p>P-A-R-E-J-A-S no el liguecillo de verano.</p>
+            </div>
+         </div>
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Puedo llevar mis hijos?</h3>
+               <p>Si, dejarnos saber al momento de confirmar. Considerar si una niñera o dejarlos en casa con familiares es opción.</p>
+            </div>
+         </div>
+          <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Cúal es el código de vestimenta?</h3>
+               <p>Formal de playa. Fresco y cómodo.</p>
+               <p>Mujeres no vestir de negro ni blanco.</p>
+            </div>
+         </div>
+          <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Cúal es la recomendación de zapatos?</h3>
+               <p>La fiesta es en la arena y zonas verdes principalmente, considerar no usar zapatos de tacón de aguja ni algo que haga sufrir a los pies.</p>
+            </div>
+         </div>
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Cúal es la recomendación de maquillaje y peinado?</h3>
+               <p>El viento puede ser un factor importante; utilizar el cabello recogido o semirecogido para que no estorbe si el aire es intenso. En cuanto al maquillaje, intente que sea muy delicado y natural para que luzca hermosa y elegante tomando en cuenta que el calor de la playa (o el baile) puede hacerla sudar, y si tiene un maquillaje natural nadie se va a dar cuenta.</p>
+            </div>
+         </div>
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >            
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Cómo será el clima?</h3>
+               <p>Bienvenidos a Guananacaste en verano donde el sol brilla y el clima es dulce. Se esperan días soleados, calientes y secos. Algunas personas describen Guana en Febrero como plasenteramente caliente y ventoso.</p>
+            </div>
+         </div>         
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >            
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Como es la iglesia de Río Seco?</h3>
+               <p>Sencilla y MUY pequeña, tomarlo en cuenta para participar de la ceremonia.</p>               
+            </div>
+         </div>
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >            
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Donde debo parquear?</h3>
+               <p>La iglesia de Río Seco está situada junto a la calle principal a Paraíso, sobre esta misma calle es posible aparcar.</p>
+               <p>En la recepción, el parqueo estará identificado dentro de la finca.</p>
+            </div>
+         </div>
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >            
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Es la fiesta bajo techo o al aire libre?</h3>
+               <p>La fiesta es sobre zonas verdes en la playa.</p>               
+            </div>
+         </div>
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >            
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Está bien si tomo fotos con el telefono durante la boda?</h3>
+               <p>La vamos a pasar bien, la mejor manera de recordarlo y compartirlo luego es tomando muchas fotos.</p>               
+            </div>
+         </div>
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >            
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿Que opciones de regalo puedo pensar?</h3>
+               <p>Estamos agradecidos de que viajen a Guanacaste para celebrar con nosotros nuestro día especial y ese es el mejor regalo que nos pueden dar. LLevamos algún tiempo viviendo juntos y dichosamente nuestro hogar esta completo por lo que no tenemos una lista de regalos tradicional. En cambio, si aún desea hacerlo pedimos que nos dejen sus muestras de cariño en efectivo. Prometemos gastarlo en la luna de miel.</p>
+               <br/>
+               <p>
+                Ivan Castillo Brais - cédula 206120199</small>
+                <br>
+                BAC Dólares 907894984
+                <br>
+                IBAN Dólares CR88010200009078949842
+
+              </p>
+            </div>
+         </div>
+         <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="600" >            
+            <div class="about-info-item mt-4">
+               <h3 class="mb-3">¿A quien debo llamar si tengo preguntas antes de la boda?</h3>
+               <p>Puede dejarnos saber a Silvia & Ivan.</p>               
+            </div>
+         </div>
+          <div class="column is-4-desktop is-6-tablet"  data-aos="fade-up" data-aos-delay="800" >             
+             <div class="about-info-item mt-4">
+                <h3 class="mb-3">Recomendaciones Generales</h3>
+                <p>- El accesorio que no puede faltar a la fiesta son las gafas de sol. No tenga miedo a usarlas de noche.</p>
+                <p>- Si tiene alergias o restricciones de dieta dejarnos saber.</p>
+                <p>- Tome mucha agua durante la celebración.</p>
+                <p>- No olvide usar bloqueador para el sol durante los días previos y el día del evento. Nunca olvide usarlo en general.</p>
+             </div>
+          </div>          
+       </div>
+    </div>
+ </section>
+
+<!-- Section atajos Start -->
+<div class="section has-text-centered">
+    <h3 class="mb-4 is-uppercase">Atajos</h3>
+    <nav class="level">
+        <div class="level-item has-text-centered">
+            <a target="_blank" href="https://www.waze.com/ul?ll=10.12747309%2C-85.79697847&navigate=yes&zoom=33" class="title"><i class="fa-brands fa-waze"></i> Fiesta</a>
+        </div>
+        <div class="level-item has-text-centered">
+            <a target="_blank" href="https://ul.waze.com/ul?ll=10.21134287%2C-85.75827956&navigate=yes&zoom=17" class="title"><i class="fa-brands fa-waze"></i> Iglesia Río Seco</a>
+        </div>
+        <div class="level-item has-text-centered">
+            <a target="_blank" href="https://ul.waze.com/ul?ll=10.14553303%2C-85.8016250564&navigate=yes&zoom=17" class="title"><i class="fa-brands fa-waze"></i> Casa Junco</a>
+        </div>
+    </nav>
 </div>
-
-  <!-- <div class="hero-body">
-    <div class="has-text-centered">
-      <span class="is-block mb-4 is-uppercase">Sabado 4 de Febrero 2023</span>
-      <h1 class="animated fadeInUp mb-6 has-text-white">
-        Playa Lagarto, Guanacaste
-      </h1>
-      <span class="is-block mb-4 is-uppercase">97 dias 4 horas</span>
-    </div>
-  </div> -->
-</section>
-
-<!-- Slider End -->
-
-<!-- Section history Start -->
-<section class="section intro" id="historia">
-  <div class="container">
-    <div class="columns is-justify-content-center">
-      <div
-        class="column is-6-widescreen is-8-desktop is-10-tablet has-text-centered"
-      >
-        <div class="section-title">
-          <h2 class="mb-4">Historia</h2>
-        </div>
-      </div>
-    </div>
-    <div class="columns is-desktop is-justify-content-space-between">
-      <div class="column is-6-desktop">
-        <div
-          class="about-img"
-          data-aos="fade-right"
-          data-aos-delay="200"
-          style="line-height: 0"
-        >
-          <img src="images/historia.jpg" alt="" class="" />
-        </div>
-      </div>
-
-      <div class="column is-6-desktop">
-        <div class="columns">
-          <div
-            class="column is-6-desktop is-6-tablet"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="intro-item mb-4 mb-lg-0">
-              <i class="fa-solid fa-eye text-color"></i>
-              <h4 class="mt-4 mb-3">¿Cómo se conocieron por primera vez?</h4>
-              <p>
-                A pesar que ambos somos de Palmares y teníamos muchos amigos en
-                común, nunca tuvimos ninguna relación hasta el día que nos
-                conocimos. Fue en un paseo a Jacó para el mundial de surf del
-                2016 cuando coincidimos en el viaje, compartimos breves
-                conversaciones que fueron suficientes para despertar la chispa
-                en ambos.
-              </p>
-            </div>
-          </div>
-          <div class="column is-6-desktop is-6-tablet">
-            <div
-              class="intro-item mb-4 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-            <i class="fa-solid fa-magnet text-color"></i>
-              <h4 class="mt-4 mb-3">¿Quién hizo la primer movida?</h4>
-              <p>
-                Despues del viaje a Jaco empezamos a conversar más seguido sobre
-                cualquier cosa, fue cuando Ivan invitó a Silvia a cenar con un
-                matiz mas romántico donde la quimica se podía sentir. Al
-                finalizar la cena, cuando veníamos de regreso al carro Ivan
-                abrió la puerta a Sil y se dió el momento ideal para ese primer
-                beso.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="columns">
-          <div
-            class="column is-6-desktop is-6-tablet"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="intro-item mb-4 mb-lg-0">
-              <i class="fa-solid fa-heart text-color"></i>
-              <h4 class="mt-4 mb-3">¿Desde cuando son pareja?</h4>
-              <p>
-                Nuestra relación tiene más de 6 años, nos hicimos novios en el
-                Templo Blanco en Chiang Mai, Thailandia un 17 de octubre de
-                2016.
-              </p>
-            </div>
-          </div>
-          <div class="column is-6-desktop is-6-tablet">
-            <div
-              class="intro-item mb-4 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >              
-              <i class="fa-solid fa-palette text-color"></i>
-              <h4 class="mt-4 mb-3">¿Cual fue su cita más memorable?</h4>
-              <p>
-                Sin duda la primera, ese primer beso fue cautivador y la energía
-                que salió de ambos durante la velada fue pura magia.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="columns">
-          <div
-            class="column is-6-desktop is-6-tablet"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="intro-item mb-4 mb-lg-0">              
-              <i class="fa-solid fa-umbrella-beach text-color"></i>
-              <h4 class="mt-4 mb-3">
-                ¿Cúal es una actividad que les gusta hacer juntos?
-              </h4>
-              <p>
-                Nos encanta la playa, siempre listos. Desde relajarnos debajo
-                del sol, hacer snorkel en cualquier piedra o ir de tour en algun
-                bote. Un pareo, una hielera y un buen punto en la playa es todo
-                lo que necesitamos para pasarla bien.
-              </p>
-            </div>
-          </div>
-          <div class="column is-6-desktop is-6-tablet">
-            <div
-              class="intro-item mb-4 mb-lg-0"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-            <i class="fa-solid fa-map-pin text-color"></i>
-              <h4 class="mt-4 mb-3">¿Qué van a hacer de luna de miel?</h4>
-              <p>
-                Aún no tenemos el plan listo, pero esperamos irnos a la playa a
-                relajarnos y celebrar la vida de casados haciendo lo que más nos
-                gusta.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Section history END -->
-
-<!-- Section itinerario Start -->
-<section class="section service bg-gray">
-  <div class="container">
-    <div class="columns is-justify-content-center" id="itinerario">
-      <div
-        class="column is-6-widescreen is-8-desktop is-10-tablet"
-      >
-        <div class="section-title has-text-centered">
-          <h2 class="mb-4">Itinerario</h2>
-        </div>
-        <div class="timeline">
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <p class="heading">Viernes 3 de Febrero - Al atardecer</p>
-              <h5>Traguitos de Bienvenida</h5>
-              <p>
-                Nos reunimos en Playa Junquillal, en casa Junco, la casa donde
-                se hospeda Ivan para recibirlos luego del viaje a quienes quieran cenar juntos frente al mar.
-                Tendremos chicharrones, parrillada y ensaladas.</p>
-                <!-- <p class="has-text-weight-bold">Traer sus
-                propias bebidas.</p> -->
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker is-icon">              
-              <i class="fa-solid fa-cross"></i>
-            </div>
-            <div class="timeline-content">
-              <p class="heading">Sábado 4 de Febrero - 2:00pm</p>
-              <h5>Ceremonia de Matrimonio</h5>
-              <p>
-                La iglesia es humilde y pequeña, esperamos contar únicamente con Familiares durante la ceremonia. Agrademos la comprensión.</p>
-                <p class="has-text-weight-bold">Iglesia de Rio Seco</p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <p class="heading">Sábado 4 de Febrero - Al Atardecer</p>
-              <h5>Recepción y Fiesta</h5>
-              <p>Nos estamos casando! Nos gustaría compartir unas palabras, comer y celebrar con todos.</p>
-                <p>Traer solo la mejor percha y las mejores vibras.</p>
-                <!-- <p class="has-text-weight-bold">Código de Vestimenta: Formal de Playa</p> -->
-              </p>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker is-icon text-color">
-              <i class="fa-solid fa-sun"></i>
-            </div>
-            <div class="timeline-content">
-              <p class="heading">Sabado 4 de Febrero - 5:45pm</p>
-              <h5>Puesta del sol</h5>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker is-icon text-color">
-              <i class="fa-solid fa-moon"></i>
-            </div>
-            <div class="timeline-content">              
-              <p class="heading">Domingo 5 de Febrero - 5:55am</p>
-              <h5>Puesta de la Luna</h5>
-            </div>
-          </div>
-          <div class="timeline-item">
-            <div class="timeline-marker"></div>
-            <div class="timeline-content">
-              <p class="heading">Domingo 5 de Febrero - 6:25am</p>
-              <h5>Desayuno post-boda</h5>
-              <p>Para aquellos que se mantengan celebrando, vamos a despedirnos desayunando.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Section itinerario End -->
-
-<!--section Counter Start -->
-
-<!-- section Counter End  -->
-
-<!--  Section Services Start -->
-
-<!--  Section Services End -->
-
-<!-- Section Pricing Start -->
-
-<!-- Section Pricing End -->
-
-<!--  Section Team Start -->
-
-<!--  Section Team End -->
-
-<!-- Section Cta Start -->
-
-<!--  Section Cta End-->
-
-<!-- Section Blog Start -->
-
-<!-- Section Blog End
+<!-- Section atajos End -->
 
 <!-- footer Start -->
 <footer class="footer section">
@@ -433,45 +315,49 @@
    <!-- Counterup -->
    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
    <script src="plugins/counterup/jquery.counterup.min.js"></script>
-   <script src="plugins/shuffle/shuffle.min.js"></script>
+   <!-- <script src="plugins/shuffle/shuffle.min.js"></script> -->
    <script src="plugins/aos/aos.js"></script>
    <script src="plugins/animate-css/wow.min.js"></script>
    <script src="plugins/modal-video/jquery-modal-video.min.js"></script>
 
    <!-- Google Map -->
-   <script src="plugins/google-map/map.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+   <!-- <script src="plugins/google-map/map.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script> -->
 
    <script src="js/script.js"></script>
    <script>
-      // Set the date we're counting down to
+      
+// Set the date we're counting down to
 var countDownDate = new Date("Feb 4, 2023 14:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
 
-  // Get today's date and time
-  var now = new Date().getTime();
+// Get today's date and time
+var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+// Find the distance between now and the count down date
+var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+// Time calculations for days, hours, minutes and seconds
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("timer").innerHTML = days + "días " + hours + "hrs "
-  + minutes + "mins ";
+// Display the result in the element with id="demo"
+document.getElementById("timer").innerHTML = days + " días " + hours + " hrs " + minutes + " mins " + seconds + " s ";
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("timer").innerHTML = "CASADOS";
-  }
+// If the count down is finished, write some text
+if (distance < 0) {
+  clearInterval(x);
+  document.getElementById("timer").innerHTML = "CASADOS";
+}  
+      
 }, 1000);
+
+
+      
    </script>
 
 </body></html>

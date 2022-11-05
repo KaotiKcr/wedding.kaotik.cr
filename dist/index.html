@@ -9,7 +9,7 @@
     />
     <meta
       name="description"
-      content="My personal wedding website. Silvia & Ivan."
+      content="Playa Lagarto, 4-FEB-23. Silvia & Ivan."
     />
 
     <meta name="author" content="kaotik.cr" />
@@ -17,7 +17,8 @@
     <!-- theme meta -->
 
     <title>Silvia & Ivan | Boda</title>
-    
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+
     <!-- Icon Font Css -->
     <link rel="stylesheet" href="plugins/themify/css/themify-icons.css" />    
     <!-- AOS css -->
@@ -37,6 +38,17 @@
 
     <!-- Main Stylesheet -->
     <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-7V6WEHH041"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-7V6WEHH041');
+    </script>
+
   </head>
   <body></body>
 </html>
@@ -64,33 +76,33 @@
       <div class="navbar-menu mr-0" id="navigation">
         <ul class="navbar-end">
           <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="#cover">Inicio</a>
+            <a class="navbar-link is-arrowless" href="index.html">Boda</a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <a class="navbar-link is-arrowless" href="index.html#historia">Historia</a>
           </li>
 
           <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="#historia">Historia</a>
+            <a class="navbar-link is-arrowless" href="index.html#itinerario">Itinerario</a>
           </li>
 
           <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="#itinerario">Itinerario</a>
-          </li>
-
-          <li class="navbar-item">
-            <a class="navbar-link is-arrowless" href="#playa-lagarto">Playa Lagarto</a>
-          </li>
+            <a class="navbar-link is-arrowless" href="index.html#playa-lagarto">Playa Lagarto</a>
+          </li> -->
 
           <!-- <li class="navbar-item">
             <a class="navbar-link is-arrowless" href="">Presentes</a>
           </li> -->
 
-          <!-- <li class="navbar-item">
+          <li class="navbar-item">
             <a
               class="navbar-link is-arrowless quote-btn bg-primary rounded-btn letter-spacing is-uppercase"
               href="faq.html"
             >
               Preguntas <i class="ti-angle-right"></i>
             </a>
-          </li> -->
+          </li>
         </ul>
       </div>
     </div>
@@ -100,30 +112,21 @@
 
 
 <!-- Slider Start -->
-<section class="hero is-link is-fullheight slider" id="cover">
+<section class="hero is-fullheight slider" id="cover">
   <div class="hero-body">
     <div class="container has-text-centered">
         <span class="is-block mb-4 is-uppercase">
           Sabado 4 de Febrero 2023
         </h2>
-        <h1 class="animated fadeInUp mb-6 has-text-white">
+        <h1 class="mb-6 has-text-white">
           Playa Lagarto, Guanacaste
-        </h1>
-        <span class="is-block mb-4 is-uppercase" id="timer">
-          97 dias 4 horas
-        </h2>        
-    </div>
-</div>
+        </h1>        
+        <!-- Section contador Start -->
+        <span class="is-block " id="timer"></span>        
+        <!-- Section contador End -->
 
-  <!-- <div class="hero-body">
-    <div class="has-text-centered">
-      <span class="is-block mb-4 is-uppercase">Sabado 4 de Febrero 2023</span>
-      <h1 class="animated fadeInUp mb-6 has-text-white">
-        Playa Lagarto, Guanacaste
-      </h1>
-      <span class="is-block mb-4 is-uppercase">97 dias 4 horas</span>
     </div>
-  </div> -->
+  </div>
 </section>
 
 <!-- Slider End -->
@@ -148,7 +151,7 @@
           data-aos-delay="200"
           style="line-height: 0"
         >
-          <img src="images/historia.jpg" alt="" class="" />
+          <img src="images/historia-1.jpg" alt="" class="" />
         </div>
       </div>
 
@@ -190,7 +193,22 @@
               </p>
             </div>
           </div>
+        </div>        
+      </div>
+    </div>
+    <div class="columns is-desktop is-justify-content-space-between">
+      <div class="column is-6-desktop">
+        <div
+          class="about-img"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          style="line-height: 0"
+        >
+          <img src="images/historia-2.jpg" alt="" class="" />
         </div>
+      </div>
+
+      <div class="column is-6-desktop">
         <div class="columns">
           <div
             class="column is-6-desktop is-6-tablet"
@@ -221,7 +239,22 @@
               </p>
             </div>
           </div>
+        </div>        
+      </div>
+    </div>
+    <div class="columns is-desktop is-justify-content-space-between">
+      <div class="column is-6-desktop">
+        <div
+          class="about-img"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          style="line-height: 0"
+        >
+          <img src="images/historia-3.jpg" alt="" class="" />
         </div>
+      </div>
+
+      <div class="column is-6-desktop">        
         <div class="columns">
           <div
             class="column is-6-desktop is-6-tablet"
@@ -235,8 +268,7 @@
               </h4>
               <p>
                 Nos encanta la playa, siempre listos. Desde relajarnos debajo
-                del sol, hacer snorkel en cualquier piedra o ir de tour en algun
-                bote. Un pareo, una hielera y un buen punto en la playa es todo
+                del sol, hacer snorkel en cualquier piedra o ir de tour donde sea. Un pareo, una hielera y un buen punto en la playa es todo
                 lo que necesitamos para pasarla bien.
               </p>
             </div>
@@ -280,12 +312,9 @@
             <div class="timeline-content">
               <p class="heading">Viernes 3 de Febrero - Al atardecer</p>
               <h5>Traguitos de Bienvenida</h5>
-              <p>
-                Nos reunimos en Playa Junquillal, en casa Junco, la casa donde
-                se hospeda Ivan para recibirlos luego del viaje a quienes quieran cenar juntos frente al mar.
-                Tendremos chicharrones, parrillada y ensaladas.</p>
-                <!-- <p class="has-text-weight-bold">Traer sus
-                propias bebidas.</p> -->
+              <p>Nos reunimos en Playa Junquillal, para recibirlos luego del viaje a quienes quieran cenar juntos frente al mar.</p>
+              <p>Tendremos chicharrones, parrillada y ensaladas.</p>                
+              <a target="_blank" href="https://ul.waze.com/ul?ll=10.14553303%2C-85.8016250564&navigate=yes&zoom=17" class="has-text-weight-bold"><i class="fa-brands fa-waze"></i> Casa Junco</a>
             </div>
           </div>
           <div class="timeline-item">
@@ -295,9 +324,8 @@
             <div class="timeline-content">
               <p class="heading">Sábado 4 de Febrero - 2:00pm</p>
               <h5>Ceremonia de Matrimonio</h5>
-              <p>
-                La iglesia es humilde y pequeña, esperamos contar únicamente con Familiares durante la ceremonia. Agrademos la comprensión.</p>
-                <p class="has-text-weight-bold">Iglesia de Rio Seco</p>
+              <p>La iglesia es sencilla y muy pequeña, esperamos contar únicamente con familia durante la ceremonia.</p>              
+              <a target="_blank" href="https://ul.waze.com/ul?ll=10.21134287%2C-85.75827956&navigate=yes&zoom=17" class="has-text-weight-bold"><i class="fa-brands fa-waze"></i> Iglesia Río Seco</a>
             </div>
           </div>
           <div class="timeline-item">
@@ -305,9 +333,8 @@
             <div class="timeline-content">
               <p class="heading">Sábado 4 de Febrero - Al Atardecer</p>
               <h5>Recepción y Fiesta</h5>
-              <p>Nos estamos casando! Nos gustaría compartir unas palabras, comer y celebrar con todos.</p>
-                <p>Traer solo la mejor percha y las mejores vibras.</p>
-                <!-- <p class="has-text-weight-bold">Código de Vestimenta: Formal de Playa</p> -->
+              <p>Nos estamos casando! Nos gustaría compartir unas palabras, comer y celebrar bailando en la arena hasta el amanecer.</p>
+              <a target="_blank" href="https://www.waze.com/ul?ll=10.12747309%2C-85.79697847&navigate=yes&zoom=33" class="has-text-weight-bold"><i class="fa-brands fa-waze"></i> Playa Lagarto</a>
               </p>
             </div>
           </div>
@@ -330,11 +357,20 @@
             </div>
           </div>
           <div class="timeline-item">
+            <div class="timeline-marker is-icon text-color">
+              <i class="fa-solid fa-sun"></i>
+            </div>
+            <div class="timeline-content">              
+              <p class="heading">Domingo 5 de Febrero - 6:05am</p>
+              <h5>Salida del sol</h5>
+            </div>
+          </div>
+          <div class="timeline-item">
             <div class="timeline-marker"></div>
             <div class="timeline-content">
-              <p class="heading">Domingo 5 de Febrero - 6:25am</p>
+              <p class="heading">Domingo 5 de Febrero - 6:35am</p>
               <h5>Desayuno post-boda</h5>
-              <p>Para aquellos que se mantengan celebrando, vamos a despedirnos desayunando.</p>
+              <p>Nos despedimos desayunando.</p>
             </div>
           </div>
         </div>
@@ -378,7 +414,7 @@
             <div class="content">
               <h4>Villas Eco-Development</h4>
               <p>Este es nuestro hospedaje recomendado. Queda a 3 minutos de la fiesta. Son villas básicas con cocina y 1 o 2 cuartos más un sofa cama en la sala. Pueden acomodarse grupos de 2, 3, 4, 5, y hasta 6 personas.</p>
-              <p>Cumple con las 3 B, bueno, bonito y barato. Tiene piscina y A/C en los cuartos. Cuenta con un Restaurante/Soda. En caso que desen reservar en este lugar, Silvia & Ivan se dieron a la tarea de solicitar un descuento comunal para la boda, pueden dejarnos saber la necesidad de hospedaje y los incluimos en la reserva comunal. Tambien pueden reservar directamente por su cuenta. </p>
+              <p>Son cómodas y accesibles. Tiene piscina y A/C en los cuartos. Cuenta con un Restaurante/Soda. En caso que desen reservar en este lugar, Silvia & Ivan se dieron a la tarea de solicitar un descuento para invitados de la boda, pueden dejarnos saber la necesidad de hospedaje y los agregamos a la lista donde se paga tarifa preferencial. Tambien pueden reservar directamente por su cuenta. </p>
               <nav class="level is-mobile">
                 <div class="level-left">
                   <a class="level-item">
@@ -402,8 +438,8 @@
           <div class="media-content">
             <div class="content">
               <h4>Azul Ocean Club</h4>
-              <p>Queda a 10 minutos de la fiesta. Son villas de lujo con cocina y 1 o 2 cuartos más un sofa cama en la sala. Pueden acomodarse grupos de 2, 3, 4, 5, y hasta 6 personas.</p>
-              <p>Tiene piscina y A/C en los cuartos. Cuenta con varios restaurantes en el lugar.</p>
+              <p>Queda a 10 minutos de la fiesta. Son villas mucho mejor equipadas con cocina y 1 o 2 cuartos más un sofa cama en la sala. Pueden acomodarse grupos de 2, 3, 4, 5, y hasta 6 personas.</p>
+              <p>Tiene piscina y A/C en los cuartos. Frente al mar. Cuenta con varios restaurantes en el lugar.</p>
               <p><a target="_blank" href="https://www.azuloceanclub.com/"> Website Oficial</a></p>
               <nav class="level is-mobile">
                 <div class="level-left">
@@ -430,8 +466,8 @@
           </figure>
           <div class="media-content">
             <div class="content">
-              <h4>Quédese en una casa de lujo</h4>
-              <p>En la zona de entre Avellanas/Playa Negra y Junquillal/Marbella existen muchas y buenas opciones de casas de lujo con aún disponibilidad para la fecha de la boda.</p>             
+              <h4>Quédese en una casa de playa</h4>
+              <p>En la zona entre Avellanas/Playa Negra y Junquillal/Marbella existen muchas y buenas opciones de casas de lujo con aún disponibilidad para la fecha de la boda.</p>             
               <nav class="level is-mobile">
                 <div class="level-left">
                   <a class="level-item">
@@ -510,27 +546,22 @@
           </div>                    
         </article>
 
+        <!-- Section atajos Start -->
         <div class="section has-text-centered">
-          <h3 class="mb-4 is-uppercase">Atajos</h3>
-          <nav class="level">
-            <div class="level-item has-text-centered">
-              <div>
-                <a target="_blank" href="https://www.waze.com/ul?ll=10.12747309%2C-85.79697847&navigate=yes&zoom=33" class="title"><i class="fa-brands fa-waze"></i> Fiesta</a>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>
-                <a target="_blank" href="https://ul.waze.com/ul?ll=10.21134287%2C-85.75827956&navigate=yes&zoom=17" class="title"><i class="fa-brands fa-waze"></i> Iglesia Río Seco</a>
-              </div>
-            </div>
-            <div class="level-item has-text-centered">
-              <div>                
-                <a target="_blank" href="https://ul.waze.com/ul?ll=10.14553303%2C-85.8016250564&navigate=yes&zoom=17" class="title"><i class="fa-brands fa-waze"></i> Casa Junco</a>
-              </div>
-            </div>
-          </nav>
+    <h3 class="mb-4 is-uppercase">Atajos</h3>
+    <nav class="level">
+        <div class="level-item has-text-centered">
+            <a target="_blank" href="https://www.waze.com/ul?ll=10.12747309%2C-85.79697847&navigate=yes&zoom=33" class="title"><i class="fa-brands fa-waze"></i> Fiesta</a>
         </div>
-        
+        <div class="level-item has-text-centered">
+            <a target="_blank" href="https://ul.waze.com/ul?ll=10.21134287%2C-85.75827956&navigate=yes&zoom=17" class="title"><i class="fa-brands fa-waze"></i> Iglesia Río Seco</a>
+        </div>
+        <div class="level-item has-text-centered">
+            <a target="_blank" href="https://ul.waze.com/ul?ll=10.14553303%2C-85.8016250564&navigate=yes&zoom=17" class="title"><i class="fa-brands fa-waze"></i> Casa Junco</a>
+        </div>
+    </nav>
+</div>
+        <!-- Section atajos End -->        
 
       </div>
     </div>
@@ -538,6 +569,16 @@
 </section>
 
 <!-- Section playa-lagarto End -->
+
+<!-- Section cta-preguntasStart -->
+<section class="hero">
+  <div class="hero-body has-text-centered">    
+    <p class="subtitle">
+        <a href="faq.html" > Ver Preguntas Frequentes </a>
+    </p>
+  </div>
+</section>
+<!-- Section cta-preguntas End -->
 
 <!-- footer Start -->
 <footer class="footer section">
@@ -603,45 +644,49 @@
    <!-- Counterup -->
    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
    <script src="plugins/counterup/jquery.counterup.min.js"></script>
-   <script src="plugins/shuffle/shuffle.min.js"></script>
+   <!-- <script src="plugins/shuffle/shuffle.min.js"></script> -->
    <script src="plugins/aos/aos.js"></script>
    <script src="plugins/animate-css/wow.min.js"></script>
    <script src="plugins/modal-video/jquery-modal-video.min.js"></script>
 
    <!-- Google Map -->
-   <script src="plugins/google-map/map.js"></script>
-   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+   <!-- <script src="plugins/google-map/map.js"></script>
+   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script> -->
 
    <script src="js/script.js"></script>
    <script>
-      // Set the date we're counting down to
+      
+// Set the date we're counting down to
 var countDownDate = new Date("Feb 4, 2023 14:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
 
-  // Get today's date and time
-  var now = new Date().getTime();
+// Get today's date and time
+var now = new Date().getTime();
 
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+// Find the distance between now and the count down date
+var distance = countDownDate - now;
 
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+// Time calculations for days, hours, minutes and seconds
+var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById("timer").innerHTML = days + "días " + hours + "hrs "
-  + minutes + "mins ";
+// Display the result in the element with id="demo"
+document.getElementById("timer").innerHTML = days + " días " + hours + " hrs " + minutes + " mins " + seconds + " s ";
 
-  // If the count down is finished, write some text
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("timer").innerHTML = "CASADOS";
-  }
+// If the count down is finished, write some text
+if (distance < 0) {
+  clearInterval(x);
+  document.getElementById("timer").innerHTML = "CASADOS";
+}  
+      
 }, 1000);
+
+
+      
    </script>
 
 </body></html>
